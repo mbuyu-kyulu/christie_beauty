@@ -1,0 +1,25 @@
+.bgimg{
+    background-color: aliceblue;
+    opacity: 2.8;
+    background-size: cover;
+    height: auto;
+  }
+  .Av-Form{
+    margin: 40px;
+    padding:50px;
+    margin-left:  30px;
+    
+    position:relative;
+    border-radius: 10px;
+    text-decoration-color: #fff;
+
+  
+  }
+  .Av-Form h3{
+    position:center;
+    text-align: center;
+  }
+  .Button:hover{
+    color:red;
+    background-color: black;
+  }

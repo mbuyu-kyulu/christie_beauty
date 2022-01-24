@@ -1,0 +1,239 @@
+/* .App {
+  text-align: center;
+} */
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.products img{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100px;
+}
+.carousel-images img{
+  height: 300px;
+}
+button{
+  margin-left: 60px;
+  background-color:red;
+  color:#fff;
+  width: 100%;
+}
+
+button:hover {
+  margin-left: 60px;
+  font-size: 20px;
+  border-radius: 10px;
+  background-color: red;
+  box-shadow: #61dafb;
+
+}
+/* .Av-Forme{
+  margin:70px;
+  padding:30px;
+  margin-left:  50px;
+  background-color: red;
+  position:absolute;
+  border-radius: 10px;
+  padding-bottom: 50px;
+  
+} */
+.images img{
+  height: 300px;
+  width: 300px;
+  margin-top: 70px;
+  margin-right: 20px;
+}
+.images AvForm{
+  /* margin:70px;
+  padding:50px;
+  margin-left:  60%;
+  background-color: red;
+  position:absolute;
+  border-radius: 10px;
+  padding-bottom: 50px; */
+}
+h2{
+  text-align: center;
+  padding: 20px;
+}
+.sb-sidenav-menu{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  min-height: 100vh !important;
+  z-index: 100;
+  padding: 48px 0 0;
+  box-shadow: inset -1px 0 0 #f80505f8;
+  background-color:red;
+}
+.sb-sidenav{
+  margin-right: 900px;
+  margin-top:250px;
+  padding-top:10px;
+}
+.sb-sidenav-menu-heading{
+  margin-left: 20px;
+}
+.sb-sidenav-menu{
+  margin-right: 900px;
+  padding-bottom:20px;
+  margin-top: 100px;
+  
+}
+#sidebar-wrapper{
+  min-height: 100vh !important;
+  width: 100vw;
+  margin-left: -1rem;
+  -webkit-transition: margin .25s ease-out;
+  -moz-transition: margin .25s ease-out;
+  -o-transition: margin .25s ease-out;
+  transition: margin .25s ease-out;
+}
+#sidebar-wrapper .sidebar-heading {
+  padding: 0.875rem 1.25rem;
+  font-size: 1.2rem;
+}
+.products{
+  padding-left: 122px;
+  text-align:left;
+}
+.products img{
+height: 200px;
+width: 200px;
+padding-left: 20px;
+}
+.sb-side{
+  height: 0px;
+}
+.navbarText{
+ text-decoration:none;
+}
+.marco img{
+  height: 200px;
+ 
+}
+.cart-item img:hover{
+  height:200px;
+  opacity: 0.5;
+  transform: scale(0.9);
+}
+
+.cart-item{
+  height: 200px;
+  width: 200px;
+}
+#page-content-wrapper {
+  min-width: 0;
+  width: 100%;
+}
+.container-fluid {
+  color:blue;
+  background-color: red;
+  width: 100%;
+  text-align: center;
+  bottom:relative;
+  height: 50px;
+  position:fixed;
+  margin: 100%;
+  padding-top: 100px;
+}
+.sb-sidenav-footer{
+  color:blue;
+  background-color: lightcoral;
+  width: 100%;
+  text-align: center;
+  bottom:relative;
+  height: 50px;
+}
+.sb-sidenav-dark{
+  height: 0px;
+}
+.dashboard  h1{
+  position: center;
+}
+/* h1{
+  postion:center;
+  margin-left: 50%;
+  padding-bottom: ;
+} */
+
+.images{
+  background-color: aliceblue;
+  opacity: 2.8;
+  background-size: cover;
+  height: auto;
+}
+h1{
+  text-align: center;
+}
+.whatsapp_float {
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+        font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+        z-index:100;
+}
+
+/* .whatsapp-icon {
+	margin-top:16px;
+}
+/* for mobile */
+@media screen and (max-width: 767px){
+     .whatsapp-icon {
+	 margin-top:10px;
+     }
+    .whatsapp_float {
+        width: 40px;
+        height: 40px;
+        bottom: 20px;
+        right: 10px;
+        font-size: 22px;
+    }
+} */
+
+.sb-sidem{
+  color:#fff;
+}
+.white{
+  color:#fff;
+}
